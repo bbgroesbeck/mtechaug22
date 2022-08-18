@@ -4,8 +4,7 @@ branches=(
     jacob
 )
 
-for branch in ${branches[@]]; do
+for branch in ${branches[@]}; do
     git checkout -b $branch
-    git push
 done
 
