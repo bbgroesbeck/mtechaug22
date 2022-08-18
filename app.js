@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //// Submitting a new comment
 
 let name = $('#name');
@@ -26,3 +27,14 @@ $("#commentSection").on('click', '.submitEdit', function() {
     $(second).text($('.edited').val());
     $('.editForm').remove();
 });
+=======
+$('.navItem').css('color', 'white');
+
+$('#nav').css('background-color', '#145');
+
+$('li:nth-of-type(even)').css('background-color', '#ccc');
+
+$('li:nth-of-type(odd)').css('background-color', '#aaa');
+
+$('input').value('Daniel');
+>>>>>>> 86167365cc46ed62d24911e4e053c5e0852a7dcd
