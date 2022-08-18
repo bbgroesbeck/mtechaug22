@@ -1,0 +1,135 @@
+/** GLOBAL STYLES **/
+
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#F6F6F6, #F6F6F6, #E7E7E7);
+    margin: 0;
+}
+
+/** STICKY POST **/
+
+#content-container, #post, #commentSubmission {
+    margin: 0 auto;
+}
+
+#content-container {
+    background-image: linear-gradient(#EEEEEE, #E7E7E7);
+    height: 100vh;
+    width: 1400px;
+}
+
+#post {
+    background-color: #FFFFFF;
+    top: 0;
+    padding: 20px;
+}
+
+#post, #commentSubmission {
+    position: fixed;
+    width: 1360px;
+}
+
+.userNamePost {
+    font-size: 24px;
+}
+.commentPost {
+    font-size: 50px;
+}
+
+/** COMMENTS SECTIONS **/
+
+#commentSection {
+    margin-top: 187px;
+    display: flex;
+    flex-flow: column;
+}
+
+.newComment {
+    margin: 25px 25px 0 25px;
+    background-color: #F6F6F6;
+    padding: 20px;
+    width: 1310px;
+}
+
+.avatar {
+    height:80px;
+    width: 80px;
+    background-image: url("icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 20px;
+}
+
+.commentFlex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.editForm {
+    margin-top: 5px;
+}
+
+.edit, .delete {
+    font-size: 20px;
+}
+
+.newComment p {
+    font-size: 40px;
+}
+
+.edited {
+    width: 82%;
+}
+
+/** SUBMISSION FORM **/
+
+#commentSubmission {
+    bottom: 0;
+    background-image: linear-gradient(#fff, #F0F0F0);
+    padding: 40px 20px;
+}
+
+input {
+    margin: 0 5px;
+}
+
+#name, #comment, .edited {
+    border: 1px solid #D2D2D2;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#comment {
+    width: 65%;
+}
+
+#mainSubmit {
+    margin-left: 10px
+}
+
+.edit, .delete, .submit {
+    background-color: transparent;
+    border: none;
+    color: #ADD7E5;
+    padding: 0px;
+}
+
+#mainSubmit {
+    display: inline;
+}
+
+.submit {
+    font-size: 28px;
+}
